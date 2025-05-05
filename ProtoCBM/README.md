@@ -17,9 +17,9 @@ Instructions:
 
 Follow the steps in "Documentation before CSCI401". (Some requirements were deprecated since then, a new requirements.txt is provided but may not be reliable)
 
-Once epoch-last.pth is retrieved (check output_cosine/CUB2011/resnet18/1028-1e-4-adam-18-train/checkpoints) run feature_attribution.py using 'python3 feature_attribution.py'
+Once epoch-last.pth is retrieved (check output_cosine/CUB2011/resnet18/1028-1e-4-adam-18-train/checkpoints) run feature_attribution.py using `python3 feature_attribution.py`
 
-Run 'python heatmap.py' to get the highlight green pixels overlayed on the image.
+Run `python heatmap.py` to get the highlight green pixels overlayed on the image.
 
 Import the image into your chosen AI chatbot and prompt it with a question in the format:
 
