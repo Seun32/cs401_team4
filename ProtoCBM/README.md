@@ -25,7 +25,7 @@ Import the image into your chosen AI chatbot and prompt it with a question in th
 
 "Are the [insert feature] of the bird highlighted by the green color? By highlighting I mean most part of the targeted position is covered. Only answer yes or no."
 
-## ----------------------------Documentation before CSCI401 hqhQAQ (GitHub) ---------------------------------##
+## ---------------------- Documentation before CSCI401 hqhQAQ (GitHub) -------------------- ##
 # Trustworthy CBM
 
 ## Introduction
