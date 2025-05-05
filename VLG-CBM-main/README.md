@@ -7,7 +7,7 @@ https://github.com/Trustworthy-ML-Lab/VLG-CBM
 1. Create and activate a virtual environment (recommended):
 ```bash
 python -m venv venv
-source venv/bin/activate  # On Windows, use: venv\Scripts\activate
+source venv/bin/activate
 ```
 
 2. Install dependencies:
@@ -30,7 +30,7 @@ python3 attribution.py \
     --model_dirs /path/to/model/checkpoint \
     --dataset your_dataset \
     --output_dir /path/to/output \
-    --device cuda  # or cpu
+    --device cuda
 ```
 
 ### Command Line Arguments
