@@ -1,0 +1,9 @@
+Namespace(dataset='cub', exp='Independent_CtoY', seed=1, log_dir='cbm_models/IndependentSeed1', batch_size=64, epochs=500, save_step=1000, lr=0.001, weight_decay=5e-05, pretrained=False, freeze=False, use_aux=False, use_attr=True, attr_loss_weight=1.0, no_img=True, bottleneck=False, weighted_loss='', uncertain_labels=False, n_attributes=312, expand_dim=0, n_class_attr=2, data_dir='CUB/CUB_PROCESSED/', image_dir='images', resampling=False, end2end=False, optimizer='sgd', ckpt='', scheduler_step=1000, normalize_loss=False, use_relu=False, use_sigmoid=False, connect_CY=False, three_class=False)
+None
+train data path: CUB/CUB_PROCESSED/train.pkl
+New model best model at epoch 0
+Epoch [0]:	Train loss: 5.3064	Train accuracy: 0.3801	Val loss: 5.2989	Val acc: 0.3339	Best val epoch: 0
+New model best model at epoch 1
+Epoch [1]:	Train loss: 5.2830	Train accuracy: 0.4012	Val loss: 5.2795	Val acc: 0.6678	Best val epoch: 1
+New model best model at epoch 2
+Epoch [2]:	Train loss: 5.2591	Train accuracy: 0.8446	Val loss: 5.2603	Val acc: 0.9182	Best val epoch: 2
