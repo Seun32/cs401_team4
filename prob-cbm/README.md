@@ -11,6 +11,8 @@ Download Processed CUB dataset: https://worksheets.codalab.org/bundles/0x5b9d528
 For current configiration:
 Make a datasets folder and place the attributes.txt, CUB_200_2011 folder, and class_attr_data_10 folder inside.
 
+You will also need to connect a wandb account before running the model
+
 Run:
 ```bash
 python main.py --config ./configs/config_exp.yaml --gpu {gpu_num}
@@ -19,3 +21,7 @@ or
 ```bash
 python main.py --config ./configs/config_base.yaml --gpu {gpu_num}
 ```
+
+## Feature Attribution
+
+Was unsuccessful in producing feature attribution for this model
