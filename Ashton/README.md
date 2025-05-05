@@ -15,4 +15,4 @@
 
 Note: `feature_attribution.py` will skip certain bird photos if it (1.) misidentifies the bird species, or (2.) can't confidentally recognize any attributes/concepts in a photo
 
-Note: `feat_attr.sh` was the respective bash file to run `feature_attribution.py` on CARC servers. You can still refer to that bash file to understand how testing was done.
+Note: `feat_attr.sh` was the respective bash file to run `feature_attribution.py` on USC CARC servers. You can still refer to that bash file to understand how testing was done.
