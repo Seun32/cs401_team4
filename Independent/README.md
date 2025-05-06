@@ -8,7 +8,6 @@ Run data_processing.py to obtain train/ val/ test splits as well as to extract a
 Update the paths (e.g. BASE_DIR, -log_dir, -out_dir, --model_path) in the scripts (where applicable) to point to your dataset and outputs.
 Run the scripts below to get the results for 1 seed. Change the seed values and corresponding file names to get results for more seeds.
 
-Independent
 Train the x -> c model:
 
 python3 src/experiments.py cub Concept_XtoC --seed 1 -ckpt 1 -log_dir ConceptModel__Seed1/outputs/ -e 1000 -optimizer sgd -pretrained -use_aux -use_attr -weighted_loss multiple -data_dir CUB_processed/class_attr_data_10 -n_attributes 112 -normalize_loss -b 64 -weight_decay 0.00004 -lr 0.01 -scheduler_step 1000 -bottleneck
